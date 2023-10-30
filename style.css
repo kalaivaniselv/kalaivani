@@ -1,0 +1,460 @@
+/* styles.css */
+.dark-header {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 10px 0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .logo img {
+    width: 100px; /* Adjust logo width as needed */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .cta-button .button {
+    background-color: #3f51b5; /* Button background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button .button:hover {
+    background-color: #303f9f; /* Darker color on hover */
+  }
+/* styles.css */
+.hero {
+    background-image: url('hero-background.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .hero .button {
+    background-color: #3f51b5; /* Button background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .hero .button:hover {
+    background-color: #303f9f; /* Darker color on hover */
+  }
+/* styles.css */
+.features {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .features .feature {
+    margin: 20px;
+  }
+  
+  .features .feature i {
+    font-size: 48px;
+    color: #3f51b5; /* Icon color */
+  }
+  
+  .features .feature h2 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .features .feature p {
+    font-size: 18px;
+  }
+  
+  /* Font Awesome CDN link for icons (place this in the HTML head):
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0-beta3/css/all.min.css">
+  */
+/* styles.css */
+.how-it-works {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .how-it-works h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .step-icon {
+    background-color: #3f51b5; /* Icon background color */
+    color: #fff;
+    font-size: 36px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .step h3 {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .step p {
+    font-size: 18px;
+  }
+  
+  /* Adjust the colors, fonts, and spacing as needed to match your design. */
+/* styles.css */
+.pricing {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .pricing h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .price-card {
+    background-color: #2e2e2e; /* Card background color */
+    border: 1px solid #3f51b5; /* Border color */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .price-card h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .price {
+    font-size: 24px;
+    color: #3f51b5; /* Price color */
+    margin: 10px 0;
+  }
+  
+  .price-card ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .price-card ul li {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .price-card .button {
+    background-color: #3f51b5; /* Button background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    transition: background-color 0.3s;
+  }
+  
+  .price-card .button:hover {
+    background-color: #303f9f; /* Darker color on hover */
+  }
+/* styles.css */
+.testimonials {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .testimonials h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .testimonial {
+    background-color: #2e2e2e; /* Testimonial background color */
+    border: 1px solid #3f51b5; /* Border color */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+  }
+  
+  .testimonial .quote {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .testimonial .author {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Adjust the colors, fonts, and spacing as needed to match your design. */
+/* styles.css */
+.contact {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .contact h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .contact-info {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3f51b5; /* Border color */
+    border-radius: 5px;
+  }
+  
+  .contact-form .button {
+    background-color: #3f51b5; /* Button background color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form .button:hover {
+    background-color: #303f9f; /* Darker color on hover */
+  }
+/* styles.css */
+.faq {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .faq h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .faq-item {
+    background-color: #2e2e2e; /* FAQ item background color */
+    border: 1px solid #3f51b5; /* Border color */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    text-align: left;
+  }
+  
+  .faq-item h3 {
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  .faq-item p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  /* Adjust the colors, fonts, and spacing as needed to match your design. */
+/* styles.css */
+.cta {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .cta h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .cta-description {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    background-color: #3f51b5; /* Button background color */
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 24px;
+  }
+  
+  .cta-button:hover {
+    background-color: #303f9f; /* Darker color on hover */
+  }
+/* styles.css */
+.footer {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Light text color */
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-logo img {
+    width: 100px; /* Adjust logo width as needed */
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Adjust the colors, fonts, and spacing as needed to match your design. */
+/* styles.css */
+.trust-badges {
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Light text color */
+    text-align: center;
+    padding: 80px 0;
+  }
+  
+  .trust-badges h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .badge {
+    margin: 20px;
+  }
+  
+  .badge img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .badge p {
+    font-size: 18px;
+  }
+  
+  /* Adjust the colors, fonts, and spacing as needed to match your design. */
+                      
